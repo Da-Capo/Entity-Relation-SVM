@@ -8,7 +8,7 @@ scikit-learn
 
 step2 extract the feature `feature.pkl`
 ```bash
-python feature_extract
+python feature_extract.py
 ```
 step3 train the svm_model and test it 
 ```bash
