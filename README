@@ -1,0 +1,15 @@
+# Requirement
+anaconda
+jieba
+scikit-learn
+
+# Run
+1. move the \Chinese folder in ace2005 data to the root folder 
+2. extract the feature
+```bash
+python feature_extract
+```
+3. train the svm_model and test it 
+```bash
+python svm_model.py
+```
