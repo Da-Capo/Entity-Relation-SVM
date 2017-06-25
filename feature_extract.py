@@ -65,7 +65,7 @@ features = {}
 lables = {}
 for f_no in res:
     sts = seg_docs[f_no][0]
-    words = seg_docs[f_no][1]     
+    words = seg_docs[f_no][1]
     for r_no in res[f_no]:
         e1 = nes[f_no][res[f_no][r_no][4]]
         e2 = nes[f_no][res[f_no][r_no][5]]
@@ -89,7 +89,7 @@ for f_no in res:
             order = 1
         else: 
             order = 2
-            
+       
         #特征组合
         feature= [el.index(e1[1]), el.index(e2[1]), esl.index(e1[-1]), esl.index(e2[-1]), order]
         e1_w, e1_t, e2_w, e2_t = [],[],[],[]

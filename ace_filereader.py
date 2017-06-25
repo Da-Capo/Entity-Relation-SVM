@@ -61,6 +61,8 @@ def get_ERD(path):
                     for charseq in child:
                         text = re.sub(r"\n", r"", charseq.text)
             rel = [rel_id, rel_type, rel_subtype, text]
+            if rel_type =="METONYMY":
+                print rel_type
             ignore = False
             for arg in mention.iter('relation_mention_argument'):
                 arg_id = arg.attrib["REFID"]

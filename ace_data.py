@@ -82,4 +82,7 @@ def conbime_list_dic(ld):
 
 if __name__ == "__main__":
     datatest = load()
-
+    
+#     for x in rl:
+#        if x =="METONYMY":
+#            print x
